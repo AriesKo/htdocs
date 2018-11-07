@@ -1,0 +1,4 @@
+The Raspberry Pi is equipped with one SPI bus that has 2 chip selects.
+The SPI master driver is disabled by default on Raspbian. 
+To enable it, use raspi-config, or ensure the line dtparam=spi=on isn't commented out in  /boot/config.txt, and reboot. 
+If the SPI driver was loaded, you should see the device /dev/spidev0.0.

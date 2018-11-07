@@ -1,0 +1,28 @@
+h1 {
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    /*color:blue;*/
+}
+#grid{
+    display: grid;
+    grid-template-columns: 110px 1fr;
+}
+ol {
+    border-right: 1px solid gray;
+    width: 50px;
+    margin: 0px;
+    padding: 25px;
+}
+@media(max-width:800px){
+    ol {
+        border-right: none;
+        width: 150px;
+        margin: 0px;
+        padding: 20px;                    
+    }
+    #grid{
+    display: block;
+    }               
+}

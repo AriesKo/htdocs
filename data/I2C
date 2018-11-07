@@ -1,0 +1,3 @@
+I²C or Inter-integrated Circuit protocol is a hardware protocol designed to allow multiple, slave integrated circuits to communicate with one or more master. 
+It uses two bidirectional open-drain lines, Serial Data Line (SDA) and Serial Clock Line (SCL), pulled up with resistors. 
+Typical voltages used are +5 V or +3.3 V, although systems with other voltages are permitted.
